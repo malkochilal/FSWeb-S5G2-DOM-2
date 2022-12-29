@@ -7,11 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web" rel="stylesheet">
   <title>Ergineer Homeworks!</title>
+ 
 </head>
 
 <body>
 
-  <header class="main-navigation">
+<header class="main-navigation">
     <div class="container nav-container">
       <h1 class="logo-heading">Eğlence Otobüsü</h1>
       <nav class="nav">
@@ -59,6 +60,7 @@
     <section class="content-pick">
 
       <div class="destination">
+        
         <h4>Güneş altında eğlence</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         <div class="btn">Beni de Al!</div>
@@ -73,10 +75,17 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         <div class="btn">Beni de Al!</div>
       </div>
+     
     </section>
   </div><!-- container -->
 
   <footer class="footer">
+  İsminizi ve iletişim Bilgileriniz Giriniz:<input type="text"  id="userForm" onkeyDown="myFunction()">
+  <form id="myForm" action="/action_page.php">
+    First name: <input type="text" name="fname"><br>
+    Last name: <input type="text" name="lname"><br><br>
+    <input type="button" onclick="myFunction()" value="Submit form">
+  </form>
     <p>Copyright Eğlence Otobüsü 2022</p>
   </footer>
 
